@@ -23,6 +23,8 @@ Package.onUse(function(api) {
   api.use('urigo:cancel-fastclick@0.0.2', where);
 
   api.addFiles([
+    
+    'scss/ionic.scss',
     'release/css/ionic.css',
     'release/fonts/ionicons.eot',
     'release/fonts/ionicons.svg',
